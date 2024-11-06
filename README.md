@@ -1,4 +1,4 @@
-[![Main branch build status](https://github.com/grace-guides/gs-spring-boot-test/workflows/Grace%20CI/badge.svg?style=flat)](https://github.com/grace-guides/gs-spring-boot-test/actions?query=workflow%3A%Grace+CI%22)
+[![Main branch build status](https://github.com/grace-guides/gs-minimalist/workflows/Grace%20CI/badge.svg?style=flat)](https://github.com/grace-guides/gs-minimalist/actions?query=workflow%3A%Grace+CI%22)
 [![Apache 2.0 license](https://img.shields.io/badge/License-APACHE%202.0-green.svg?logo=APACHE&style=flat)](https://opensource.org/licenses/Apache-2.0)
 [![Grace on X](https://img.shields.io/twitter/follow/graceframework?style=social)](https://twitter.com/graceframework)
 
