@@ -1,0 +1,36 @@
+plugins {
+    id "eclipse"
+    id "idea"
+    id "war"
+    id "org.graceframework.grace-web"
+}
+
+ext['spring-framework.version'] = '6.0.23'
+
+group "grace.guides"
+
+repositories {
+    mavenCentral()
+}
+
+configurations {
+    developmentOnly
+}
+
+dependencies {
+    developmentOnly("org.springframework.boot:spring-boot-devtools")
+    console "org.graceframework:grace-console"
+    implementation "org.springframework.boot:spring-boot-starter-logging"
+    implementation "org.springframework.boot:spring-boot-starter-web"
+    implementation "org.graceframework:grace-boot"
+    profile "org.graceframework.profiles:web"
+    testImplementation "org.graceframework:grace-test-support"
+    testImplementation "org.mockito:mockito-core"
+}
+
+java {
+    toolchain {
+        languageVersion = JavaLanguageVersion.of(17)
+    }
+}
+
