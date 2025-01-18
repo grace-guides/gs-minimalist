@@ -4,5 +4,5 @@ repositories {
 }
 
 dependencies {
-    implementation "org.graceframework:grace-gradle-plugin:2023.2.0-M3"
+    implementation "org.graceframework:grace-gradle-plugin:2023.3.0-M1"
 }
